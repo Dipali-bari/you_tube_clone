@@ -1,0 +1,77 @@
+.conatiner{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9px;
+   
+}
+.youtubeIcon{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+
+
+}
+.searchBox{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:relative;
+    width: 45%;
+   
+
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    border: 3px groove rgb(138, 133, 133);
+    border-radius: 60px;
+    width: 85%;
+}
+.signIn{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 10%;
+    margin-right: 10px;
+
+}
+#mic{
+    /* background-color: chartreuse; */
+    margin-top: 8px;
+}
+.tasksInput{
+   
+    width: 100%;
+   
+    margin-left: 10px;
+    border-right: 3px groove black;
+}
+#s{
+    display: flex;
+    flex-direction: row;
+   
+    border-radius: 20px;
+    border:1px ridge black;
+    margin-right: 15px;
+    padding: 3px;
+}
+#btnsignIn{
+    border-style: none;
+    color: rgb(25, 102, 245);
+
+}
+#s :hover{
+    background-color: aquamarine;
+}
